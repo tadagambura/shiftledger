@@ -52,11 +52,15 @@ Prices are starting points; test before committing. **Portfolio premium promise:
 Follow the portfolio guardrails: no guilt-trip notifications, no fake urgency, progress is
 never wiped, at most one notification a day by default.
 
-## Animation and tone
+## Animation and tone: five signature animations
 
-**Calm.** Smooth, reassuring motion only: gentle ticks, numbers easing into place. No characters, jokes or drama.
+**Calm.** Gentle, kind humour and smooth motion: a stickman yawning after a shift, a fly escaping an empty pocket. No drama, nothing that adds stress.
 
-- Gentle tick when a shift is logged; earnings count up smoothly
+- End of shift: the clock spins, the stickman stretches and yawns, earnings count up
+- Planned day off: the stickman naps in a hammock while a snowflake keeps the streak safe
+- Payday: the payslip prints and he checks it with a magnifying glass
+- Possible short pay: he raises one eyebrow and taps the number (no alarms)
+- Overtime logged: he refills his coffee and the steam spells 'OT'
 
 **Line we don't cross:** Pay is serious: no characters, jokes or drama.
 
