@@ -1,6 +1,6 @@
 # ShiftLedger: Spec
 
-**Know what you'll actually be paid** · #21 of 33 in the build order · Medium · Revenue potential: High · Money & Work · Source: Perplexity
+**Know what you'll actually be paid** · #10 of 33 · Wave 1: Daily keepers · Used: Every shift · Medium · Revenue potential: High · Money & Work · Source: Perplexity
 
 ## One-liner
 
@@ -10,15 +10,15 @@ For zero-hours, agency, hospitality, care, retail and NHS-bank workers. Log shif
 
 - **Who it's for:** UK hourly workers with variable shifts, especially 18–35s with more than one employer.
 - **The problem it solves:** With irregular shifts it's hard to know what you'll be paid, when, and whether it's right.
-- **Example:** A care worker logs three shifts across two agencies and sees expected take-home pay, what's still unpaid, and whether they can cover an upcoming bill.
+- **Example:** A care worker adds next week's rota (four shifts, three days off). After each shift ShiftLedger asks 'log today's shift?', pre-filled; on days off it stays quiet and the streak is safe. They ask 'how much have I made this month?' and get the exact figure.
 
 ## MVP features (ship with only these)
 
-1. Log shifts: rate, overtime, breaks, travel, tips; multiple employers
-2. Estimated gross and net pay using UK tax and NI for the current tax year
-3. Earned-but-unpaid total and expected payday
-4. Payslip check: flags possible missing or short pay
-5. Export a shift and pay record
+1. Rota planner: enter upcoming shifts and days off in advance
+2. Log shifts: rate, overtime, breaks, travel, tips; multiple employers
+3. Estimated gross and net pay using UK tax and NI for the current tax year
+4. Earned-but-unpaid total, expected payday and a payslip check that flags possible short pay
+5. Shift streak: every scheduled shift logged. Days off are marked in advance, freeze the streak and get no reminders
 
 ## Not in MVP
 
@@ -26,6 +26,7 @@ For zero-hours, agency, hospitality, care, retail and NHS-bank workers. Log shif
 - Pay forecasts and low-cash warnings
 - Bills calendar (links to PocketLeft)
 - Holiday-pay estimate
+- Import a rota from a photo or calendar
 
 ## Monetisation
 
@@ -41,15 +42,20 @@ Prices are starting points; test before committing.
 
 | Stage | Design |
 |---|---|
-| Cue | After each shift ('log today's shift?') and on payday |
-| Tiny win | Log a shift in a few taps |
-| Progress | Earned this period; unpaid total |
+| Cue | End of each scheduled shift, and payday. Nothing on days off. |
+| Tiny win | Confirm today's shift in one tap (pre-filled from the rota) |
+| Progress | Shift streak (frozen on planned days off), earned this period, unpaid total |
 | Share | Low (pay is private); grow through worker communities and content |
-| Next step | Each payday: check the payslip, start a new period |
+| Next step | Each payday: check the payslip, plan the next rota |
 | Cadence | Every shift + every payday |
 
 Follow the portfolio guardrails: no guilt-trip notifications, no fake urgency, progress is
 never wiped, at most one notification a day by default.
+
+## AI
+
+**Light.** 'Ask' box: 'how much have I made this month?' A cheap model only works out what's being asked; the numbers are always calculated by the app's own code, never by the AI. (Portfolio rule: plain code first, code does the maths,
+cheapest model, shared budget cap, premium-gated.)
 
 ## Platform & data
 
