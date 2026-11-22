@@ -45,6 +45,8 @@ UK hourly workers with variable shifts, especially 18–35s with more than one e
 | Premium | £3.99–£5.99/month: unlimited jobs, payslip checks, forecasts, exports |
 | Ads | Light, never on pay screens |
 
+**Portfolio premium promise:** free has ads; the moment you pay you get no ads, cloud backup and storage, and sync across your devices, plus this app's extras.
+
 ## Why people come back
 
 Built on **The Progression Loop**, the portfolio's shared retention framework
