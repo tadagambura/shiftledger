@@ -2,7 +2,7 @@
 
 **Know what you'll actually be paid**
 
-> #21 of 33 in the build order · Medium · Revenue potential: High · Money & Work
+> #10 of 33 · Wave 1: Daily keepers · Used: Every shift · Medium · Revenue potential: High · Money & Work
 > **Flagship: highest-value app**
 
 ## What it is
@@ -21,13 +21,13 @@ UK hourly workers with variable shifts, especially 18–35s with more than one e
 
 ## Version one
 
+- Rota planner: enter upcoming shifts and days off in advance
 - Log shifts: rate, overtime, breaks, travel, tips; multiple employers
 - Estimated gross and net pay using UK tax and NI for the current tax year
-- Earned-but-unpaid total and expected payday
-- Payslip check: flags possible missing or short pay
-- Export a shift and pay record
+- Earned-but-unpaid total, expected payday and a payslip check that flags possible short pay
+- Shift streak: every scheduled shift logged. Days off are marked in advance, freeze the streak and get no reminders
 
-**Example:** A care worker logs three shifts across two agencies and sees expected take-home pay, what's still unpaid, and whether they can cover an upcoming bill.
+**Example:** A care worker adds next week's rota (four shifts, three days off). After each shift ShiftLedger asks 'log today's shift?', pre-filled; on days off it stays quiet and the streak is safe. They ask 'how much have I made this month?' and get the exact figure.
 
 ## Later
 
@@ -35,6 +35,7 @@ UK hourly workers with variable shifts, especially 18–35s with more than one e
 - Pay forecasts and low-cash warnings
 - Bills calendar (links to PocketLeft)
 - Holiday-pay estimate
+- Import a rota from a photo or calendar
 
 ## How it makes money
 
@@ -51,12 +52,16 @@ Built on **The Progression Loop**, the portfolio's shared retention framework
 
 | Stage | In ShiftLedger |
 |---|---|
-| Cue | After each shift ('log today's shift?') and on payday |
-| Tiny win | Log a shift in a few taps |
-| Progress | Earned this period; unpaid total |
+| Cue | End of each scheduled shift, and payday. Nothing on days off. |
+| Tiny win | Confirm today's shift in one tap (pre-filled from the rota) |
+| Progress | Shift streak (frozen on planned days off), earned this period, unpaid total |
 | Share | Low (pay is private); grow through worker communities and content |
-| Next step | Each payday: check the payslip, start a new period |
+| Next step | Each payday: check the payslip, plan the next rota |
 | Cadence | Every shift + every payday |
+
+## AI
+
+**Light.** 'Ask' box: 'how much have I made this month?' A cheap model only works out what's being asked; the numbers are always calculated by the app's own code, never by the AI.
 
 ## Watch-outs
 
