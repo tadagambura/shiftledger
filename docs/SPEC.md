@@ -52,6 +52,14 @@ Prices are starting points; test before committing.
 Follow the portfolio guardrails: no guilt-trip notifications, no fake urgency, progress is
 never wiped, at most one notification a day by default.
 
+## Animation and tone
+
+**Calm.** Smooth, reassuring motion only: gentle ticks, numbers easing into place. No characters, jokes or drama.
+
+- Gentle tick when a shift is logged; earnings count up smoothly
+
+**Line we don't cross:** Pay is serious: no characters, jokes or drama.
+
 ## AI
 
 **Light.** 'Ask' box: 'how much have I made this month?' A cheap model only works out what's being asked; the numbers are always calculated by the app's own code, never by the AI. (Portfolio rule: plain code first, code does the maths,
