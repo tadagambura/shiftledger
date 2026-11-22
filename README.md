@@ -59,6 +59,14 @@ Built on **The Progression Loop**, the portfolio's shared retention framework
 | Next step | Each payday: check the payslip, plan the next rota |
 | Cadence | Every shift + every payday |
 
+## Animation and tone
+
+**Calm.** Smooth, reassuring motion only: gentle ticks, numbers easing into place. No characters, jokes or drama.
+
+- Gentle tick when a shift is logged; earnings count up smoothly
+
+**Line we don't cross:** Pay is serious: no characters, jokes or drama.
+
 ## AI
 
 **Light.** 'Ask' box: 'how much have I made this month?' A cheap model only works out what's being asked; the numbers are always calculated by the app's own code, never by the AI.
