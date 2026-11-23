@@ -1,0 +1,610 @@
+{
+  "pack": "shiftledger-cards-1",
+  "version": 1,
+  "checked": "2026-11-23",
+  "reviewed": false,
+  "cards": [
+    {
+      "id": "c01",
+      "topic": "Pay",
+      "title": "Know your minimum hourly rate",
+      "body": "From 1 April 2026 the legal minimum is £12.71 an hour if you're 21 or over (the National Living Wage), £10.85 at 18 to 20, and £8.00 if you're under 18 or an apprentice. The rates change every 1 April, so it's worth checking your payslip each spring.",
+      "quiz": {
+        "q": "You're 19 and not an apprentice. What's your legal minimum from April 2026?",
+        "options": [
+          "£8.00 an hour",
+          "£12.71 an hour",
+          "£10.85 an hour"
+        ],
+        "answer": 2,
+        "explain": "The 18 to 20 rate is £10.85. The £12.71 National Living Wage starts at 21."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/national-minimum-wage-rates"
+      },
+      "tags": [
+        "rights",
+        "pay",
+        "minimum-wage"
+      ]
+    },
+    {
+      "id": "c02",
+      "topic": "Holiday",
+      "title": "You earn paid holiday too",
+      "body": "Almost every worker gets 5.6 weeks' paid holiday a year. On a five-day week, that's 28 days. Part-timers on regular hours get 5.6 weeks too, just in proportion, so three days a week works out at 16.8 days. Your employer can count bank holidays as part of it, but doesn't have to give them as paid days off.",
+      "quiz": null,
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/holiday-entitlement-rights"
+      },
+      "tags": [
+        "rights",
+        "holiday"
+      ]
+    },
+    {
+      "id": "c03",
+      "topic": "Holiday",
+      "title": "Irregular hours? Holiday builds as you work",
+      "body": "If your hours change from week to week, or you only work part of the year, holiday builds up as you go: 12.07% of the hours you work in each pay period. So 30 hours in a week earns about 4 hours of leave, which you can use from the next pay period. Logging your shifts lets you check it adds up.",
+      "quiz": {
+        "q": "You work 30 hours this week on irregular hours. About how much holiday do you build up?",
+        "options": [
+          "None, irregular hours don't earn holiday",
+          "About 4 hours",
+          "A full day"
+        ],
+        "answer": 1,
+        "explain": "You build 12.07% of the hours you work each pay period. That's 3.6 hours here, which rounds up to 4."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/holiday-entitlement-rights/calculate-leave-entitlement"
+      },
+      "tags": [
+        "rights",
+        "holiday",
+        "zero-hours"
+      ]
+    },
+    {
+      "id": "c04",
+      "topic": "Breaks",
+      "title": "Breaks and rest are the law",
+      "body": "Work more than 6 hours in a day and you're entitled to one unbroken 20-minute break, such as a tea or lunch break. It doesn't have to be paid; your contract decides that. You also get 11 hours off between working days, plus either 24 hours off each week or 48 hours off each fortnight. Under 18? You get more (see the young worker card).",
+      "quiz": {
+        "q": "Your shift is 7 hours long. What's your legal minimum break?",
+        "options": [
+          "One unbroken 20-minute break",
+          "Nothing if it's busy",
+          "Two 10-minute breaks"
+        ],
+        "answer": 0,
+        "explain": "Over 6 hours means one uninterrupted 20-minute break. Two short breaks don't meet the rule."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/rest-breaks-work"
+      },
+      "tags": [
+        "rights",
+        "breaks",
+        "rest"
+      ]
+    },
+    {
+      "id": "c05",
+      "topic": "Sick pay",
+      "title": "Sick pay from your first day off",
+      "body": "If you're an employee and too ill to work, Statutory Sick Pay is £123.25 a week or 80% of your normal weekly earnings, whichever is lower. It's paid for every full day off sick you'd normally have worked, for up to 28 weeks. Since April 2026 there are no unpaid waiting days and no minimum earnings level, so low and part-time hours count too.",
+      "quiz": {
+        "q": "Since April 2026, which full days off sick can SSP cover?",
+        "options": [
+          "Only from the fourth day",
+          "Only if you earn over a set amount",
+          "From your first full day off"
+        ],
+        "answer": 2,
+        "explain": "The unpaid waiting days and the lower earnings limit were removed on 6 April 2026."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/statutory-sick-pay/what-youll-get"
+      },
+      "tags": [
+        "rights",
+        "sick-pay"
+      ]
+    },
+    {
+      "id": "c06",
+      "topic": "Payslips",
+      "title": "Your payslip is your proof",
+      "body": "Every employee and worker is entitled to a payslip on or before payday, on paper or online. It must show your pay before and after deductions, what's been taken off, and your hours if your pay depends on time worked. Keep them all: they prove what you earned, the tax you paid and your pension contributions.",
+      "quiz": {
+        "q": "You're paid by the hour. What must your payslip show?",
+        "options": [
+          "Only your take-home pay",
+          "The hours you're being paid for",
+          "Your manager's name"
+        ],
+        "answer": 1,
+        "explain": "If your pay varies with time worked, the hours must be on the payslip. That's how you check your rate and spot missing shifts."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/payslips"
+      },
+      "tags": [
+        "rights",
+        "pay",
+        "payslips"
+      ]
+    },
+    {
+      "id": "c07",
+      "topic": "Contracts",
+      "title": "Get the key terms in writing on day one",
+      "body": "Employees and workers should get a written statement from their first day. It covers your pay and how often you're paid, your hours and whether they can change, holiday, where you'll work, any probation, and compulsory training. Sick pay and notice details must be available from day one too. If yours is missing, ask for it.",
+      "quiz": null,
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/employment-contracts-and-conditions/written-statement-of-employment-particulars"
+      },
+      "tags": [
+        "rights",
+        "contract"
+      ]
+    },
+    {
+      "id": "c08",
+      "topic": "Pensions",
+      "title": "A workplace pension is extra pay",
+      "body": "If you're 22 or over, earn at least £10,000 a year and work in the UK, your employer must put you in a workplace pension and pay in. The minimum is 8% in total, with at least 3% from your employer. Younger or earning less? You can usually ask to join and they can't refuse. Nobody is allowed to push you to opt out.",
+      "quiz": {
+        "q": "You're 20 and earn £12,000 a year. Can you join the workplace pension?",
+        "options": [
+          "Only after two years",
+          "No, you're too young",
+          "Yes, if you ask they can't refuse"
+        ],
+        "answer": 2,
+        "explain": "Under-22s aren't enrolled automatically, but you can usually ask to join and your employer can't say no."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/workplace-pensions/joining-a-workplace-pension"
+      },
+      "tags": [
+        "rights",
+        "pensions"
+      ]
+    },
+    {
+      "id": "c09",
+      "topic": "Deductions",
+      "title": "Deductions have rules",
+      "body": "Your employer can only take money from your pay if the law requires it (like tax and National Insurance), your contract allows it, or you agreed in writing beforehand. Most deductions mustn't push you below minimum wage. In retail, till or stock shortage deductions are capped at 10% of your gross pay for that week or month. Every deduction should show on your payslip.",
+      "quiz": null,
+      "source": {
+        "name": "ACAS",
+        "url": "https://www.acas.org.uk/deductions-from-pay-and-wages"
+      },
+      "tags": [
+        "rights",
+        "pay",
+        "exploitation"
+      ]
+    },
+    {
+      "id": "c10",
+      "topic": "Underpayment",
+      "title": "Paying for your own uniform?",
+      "body": "If you have to buy or rent a uniform, tools or safety kit for the job and don't get the money back, that cost comes off your pay when checking minimum wage. If it leaves you below the legal rate for the hours you worked, your employer must pay you the difference. Keep the receipts and do the sum.",
+      "quiz": null,
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/national-minimum-wage/employers-and-the-minimum-wage"
+      },
+      "tags": [
+        "exploitation",
+        "minimum-wage",
+        "deductions"
+      ]
+    },
+    {
+      "id": "c11",
+      "topic": "Underpayment",
+      "title": "Training and travel between jobs count",
+      "body": "For minimum wage, training counts as working time, and so does travelling to it. In care work and other jobs with several visits, travelling between appointments counts too. Your trip from home to your first job doesn't. If you're only paid for time with clients, divide your pay by all the hours that count. It might fall below the legal rate.",
+      "quiz": {
+        "q": "You're a home carer. Which of these counts as working time for minimum wage?",
+        "options": [
+          "Travel between clients' homes",
+          "Your drive from home to the first visit",
+          "None of your travel"
+        ],
+        "answer": 0,
+        "explain": "Travel between work appointments counts. Your journey from home to your first visit doesn't."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/minimum-wage-different-types-work"
+      },
+      "tags": [
+        "exploitation",
+        "minimum-wage",
+        "care"
+      ]
+    },
+    {
+      "id": "c12",
+      "topic": "Underpayment",
+      "title": "There's no such thing as unpaid 'off the clock' work",
+      "body": "If you're at work and required to be working, that's working time. That includes setting up before opening, cashing up after close, or waiting to start a job. Being asked to clock out and carry on means unpaid hours, which can drag your real hourly pay below the legal minimum. Note the real times in your shift log.",
+      "quiz": null,
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/minimum-wage-different-types-work"
+      },
+      "tags": [
+        "exploitation",
+        "minimum-wage"
+      ]
+    },
+    {
+      "id": "c13",
+      "topic": "Underpayment",
+      "title": "Unpaid trial shifts: know the line",
+      "body": "The law doesn't set an exact limit for unpaid trials. A short trial of a few hours that's genuinely part of recruitment may be unpaid. But the longer it lasts, especially across several shifts or days doing the real job, the more likely you're owed at least minimum wage. Working a full weekend for free is a red flag.",
+      "quiz": {
+        "q": "Which unpaid 'trial' is most likely to break minimum wage rules?",
+        "options": [
+          "A one-hour skills test at interview",
+          "Three full shifts serving customers",
+          "Watching a colleague for 20 minutes"
+        ],
+        "answer": 1,
+        "explain": "Longer trials doing real work, especially over several shifts, are more likely to count as work that must be paid."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/guidance/calculating-the-minimum-wage/eligibility-for-the-minimum-wage"
+      },
+      "tags": [
+        "exploitation",
+        "minimum-wage",
+        "hospitality"
+      ]
+    },
+    {
+      "id": "c14",
+      "topic": "Tips",
+      "title": "Tips belong to staff",
+      "body": "Your employer must pass on all tips and service charges, and share them in a fair, clear way. Where tipping is common there must be a written tips policy, and you can ask to see the record of tips paid. Tips should reach you by the end of the following month, with only tax and National Insurance taken off. Card fees can't be deducted.",
+      "quiz": {
+        "q": "A customer tips by card on 12 October. By when should you get it?",
+        "options": [
+          "By the end of November",
+          "Whenever your manager decides",
+          "Only if you ask for it"
+        ],
+        "answer": 0,
+        "explain": "Tips should be paid by the end of the month after they were given, so October tips by the end of November."
+      },
+      "source": {
+        "name": "Citizens Advice",
+        "url": "https://www.citizensadvice.org.uk/work/pay/check-what-tips-and-service-charges-youre-entitled-to/"
+      },
+      "tags": [
+        "rights",
+        "tips",
+        "hospitality"
+      ]
+    },
+    {
+      "id": "c15",
+      "topic": "Status",
+      "title": "'Self-employed' but treated like staff?",
+      "body": "Genuinely self-employed people usually quote for work, aren't closely supervised, send invoices and pay their own tax and National Insurance. If you're told you're self-employed but given set shifts and supervised like everyone else, check your employment status. Self-employed people don't get holiday or sick pay, and a wrong status can also leave you with tax to sort out.",
+      "quiz": null,
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/employment-status/selfemployed-contractor"
+      },
+      "tags": [
+        "exploitation",
+        "status"
+      ]
+    },
+    {
+      "id": "c16",
+      "topic": "Leaving",
+      "title": "Leaving? Don't leave money behind",
+      "body": "When you leave a job, your employer must pay you for any statutory holiday you've built up but not taken, even if you were dismissed for gross misconduct. You might be able to use some of it up during your notice instead. Check your final payslip for the holiday payment, and chase it in writing if it's missing.",
+      "quiz": {
+        "q": "You're dismissed with 3 days' holiday untaken. What happens to it?",
+        "options": [
+          "You lose it",
+          "It's paid only if you work your notice",
+          "It must be paid in your final pay"
+        ],
+        "answer": 2,
+        "explain": "Untaken statutory holiday must be paid when you leave, even after a gross misconduct dismissal."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/holiday-entitlement-rights/taking-holiday-before-leaving-a-job"
+      },
+      "tags": [
+        "rights",
+        "final-pay",
+        "holiday"
+      ]
+    },
+    {
+      "id": "c17",
+      "topic": "Free help",
+      "title": "Free, confidential help from Acas",
+      "body": "Not sure something's right at work? The Acas helpline gives free, confidential advice on pay, hours, holiday and disputes. Call 0300 123 1100, Monday to Friday, 8am to 6pm. You can call just to check your rights before you decide what to do. Have your payslips and shift records handy.",
+      "quiz": null,
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/pay-and-work-rights"
+      },
+      "tags": [
+        "help",
+        "acas"
+      ]
+    },
+    {
+      "id": "c18",
+      "topic": "Free help",
+      "title": "Underpaid? Your next steps",
+      "body": "Check your pay with the GOV.UK minimum wage calculator, then ask your employer in writing for your pay records. They have 14 days to provide them. Talk to them, call Acas, and raise a grievance if needed. You can report underpayment to HMRC at any time. For tribunal claims about underpayments from 1 October 2026, the time limit is 6 months minus a day.",
+      "quiz": {
+        "q": "How long does your employer have to show you your pay records after a written request?",
+        "options": [
+          "14 days",
+          "3 months",
+          "They don't have to"
+        ],
+        "answer": 0,
+        "explain": "Employers must provide pay records within 14 days. Asking by email or letter gives you proof you asked."
+      },
+      "source": {
+        "name": "Citizens Advice",
+        "url": "https://www.citizensadvice.org.uk/work/pay/getting-paid-less-than-minimum-wage-or-living-wage/"
+      },
+      "tags": [
+        "help",
+        "minimum-wage",
+        "hmrc"
+      ]
+    },
+    {
+      "id": "c19",
+      "topic": "Young workers",
+      "title": "Under 18? You get longer breaks",
+      "body": "If you're over school leaving age but under 18, you get more rest than adults. Work more than 4.5 hours and you're entitled to a 30-minute break, in one go if possible. You should also get 12 hours off between working days and 48 hours off each week. If your rota doesn't allow for this, raise it.",
+      "quiz": {
+        "q": "You're 17 and working a 5-hour shift. What break are you entitled to?",
+        "options": [
+          "20 minutes",
+          "30 minutes",
+          "None, it's under 6 hours"
+        ],
+        "answer": 1,
+        "explain": "Young workers get 30 minutes once they work more than 4.5 hours. The 20-minutes-after-6-hours rule is for adults."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/rest-breaks-work/young-workers"
+      },
+      "tags": [
+        "young-workers",
+        "breaks",
+        "rights"
+      ]
+    },
+    {
+      "id": "c20",
+      "topic": "Young workers",
+      "title": "Young and new, still protected",
+      "body": "Starting work at 16 or 17 doesn't mean fewer rights; in some ways you have more. You usually shouldn't work more than 8 hours a day or 40 a week, or between 10pm and 6am, though jobs like hospitality and retail have some exceptions. Your paid holiday is the same as an adult's, and you're owed minimum wage for your age, even working for someone you know.",
+      "quiz": null,
+      "source": {
+        "name": "Citizens Advice",
+        "url": "https://www.citizensadvice.org.uk/work/working-hours-and-rest-breaks/check-your-rights-at-work-under-18/"
+      },
+      "tags": [
+        "young-workers",
+        "rights"
+      ]
+    },
+    {
+      "id": "c21",
+      "topic": "Speaking up",
+      "title": "Raising a problem the right way",
+      "body": "Most problems start with an informal chat with your manager. If that doesn't work, or the issue is serious, you can raise a formal grievance. There's usually a meeting, and you can bring someone with you, such as a colleague or a trade union rep. If you're unhappy with the outcome, you can appeal. Acas has a step-by-step guide.",
+      "quiz": null,
+      "source": {
+        "name": "ACAS",
+        "url": "https://www.acas.org.uk/grievance-procedure-step-by-step"
+      },
+      "tags": [
+        "young-workers",
+        "grievance",
+        "help"
+      ]
+    },
+    {
+      "id": "c22",
+      "topic": "Speaking up",
+      "title": "Joining a union is your choice",
+      "body": "You can choose whether to join a trade union, and you can belong to more than one. Your employer can't refuse you a job, dismiss you, or hold back promotion or training because you're a member, and can't offer you something to leave. Ask colleagues which union covers your workplace, or speak to a union rep about joining.",
+      "quiz": null,
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/join-trade-union/trade-union-membership-your-employment-rights"
+      },
+      "tags": [
+        "young-workers",
+        "unions",
+        "rights"
+      ]
+    },
+    {
+      "id": "c23",
+      "topic": "Zero hours",
+      "title": "Zero hours, full rights",
+      "body": "A zero-hours contract doesn't mean zero rights. You're still owed minimum wage, paid holiday, rest breaks and payslips. You don't have to accept every shift you're offered, and your employer can't stop you working for someone else, even if your contract says so. They also mustn't treat you badly for asking for your legal rights.",
+      "quiz": null,
+      "source": {
+        "name": "ACAS",
+        "url": "https://www.acas.org.uk/zero-hours-contracts"
+      },
+      "tags": [
+        "rights",
+        "zero-hours"
+      ]
+    },
+    {
+      "id": "c24",
+      "topic": "Agency work",
+      "title": "Agency worker? Watch for week 12",
+      "body": "From day one, agency workers get minimum wage, paid holiday, use of shared facilities like the staff kitchen, and a key information document explaining how pay works. After 12 weeks in the same role, you should get the same basic pay and conditions as staff hired directly. If you don't, write to your agency. They must reply within 28 days.",
+      "quiz": null,
+      "source": {
+        "name": "Citizens Advice",
+        "url": "https://www.citizensadvice.org.uk/work/agency-workers/check-your-rights-as-an-agency-worker/"
+      },
+      "tags": [
+        "rights",
+        "agency"
+      ]
+    },
+    {
+      "id": "c25",
+      "topic": "Opportunities",
+      "title": "Want different hours? Ask formally",
+      "body": "Employees can make a formal flexible working request from their first day, asking to change when, where or how they work, like different hours or a new shift pattern. Your employer must talk it through with you before saying no, and give a final decision within 2 months. Casual and zero-hours staff may not count as employees, but you can still ask.",
+      "quiz": null,
+      "source": {
+        "name": "ACAS",
+        "url": "https://www.acas.org.uk/statutory-flexible-working-requests/the-right-to-request"
+      },
+      "tags": [
+        "opportunities",
+        "hours"
+      ]
+    },
+    {
+      "id": "c26",
+      "topic": "Opportunities",
+      "title": "Your April pay rise",
+      "body": "From 1 April 2027 the legal minimum rises to £13.21 an hour at 21 and over, £11.27 at 18 to 20, and £8.31 for under-18s and apprentices. Birthdays matter too: turning 18 or 21 moves you into a higher band. Check your first payslip after April, and after your birthday, and ask if your rate hasn't moved.",
+      "quiz": {
+        "q": "What's the National Living Wage for over-21s from 1 April 2027?",
+        "options": [
+          "£12.71 an hour",
+          "£12.95 an hour",
+          "£13.21 an hour"
+        ],
+        "answer": 2,
+        "explain": "It goes up from £12.71 to £13.21 an hour on 1 April 2027."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/national-minimum-wage-rates"
+      },
+      "tags": [
+        "opportunities",
+        "pay",
+        "minimum-wage"
+      ]
+    },
+    {
+      "id": "c27",
+      "topic": "Opportunities",
+      "title": "Look out for real living wage employers",
+      "body": "The 'real living wage' is a voluntary rate set by the Living Wage Foundation and based on what living actually costs. Employers choose to pay it, and HMRC doesn't enforce it. New rates are usually announced in autumn. When you're job hunting, it's worth checking whether an employer pays it, and asking your current one if they've considered it.",
+      "quiz": {
+        "q": "Who enforces the real living wage?",
+        "options": [
+          "HMRC",
+          "Nobody, it's voluntary",
+          "Acas"
+        ],
+        "answer": 1,
+        "explain": "It's voluntary. HMRC enforces the legal minimum wage, not the real living wage."
+      },
+      "source": {
+        "name": "ACAS",
+        "url": "https://www.acas.org.uk/national-minimum-wage-entitlement/the-real-living-wage"
+      },
+      "tags": [
+        "opportunities",
+        "pay"
+      ]
+    },
+    {
+      "id": "c28",
+      "topic": "Opportunities",
+      "title": "Earn while you train",
+      "body": "In England, if you're 16 or over and not in full-time education, an apprenticeship lets you earn a wage while you train. You're an employee with holiday pay, and at least 20% of your normal hours go on training and study. Apprenticeships last from 8 months to 6 years and range from GCSE level right up to degree level.",
+      "quiz": null,
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/become-apprentice"
+      },
+      "tags": [
+        "opportunities",
+        "training",
+        "young-workers"
+      ]
+    },
+    {
+      "id": "c29",
+      "topic": "Opportunities",
+      "title": "References: what to expect",
+      "body": "Most employers don't have to give a reference by law, unless they've agreed to in writing, for example in your contract. A company policy may limit what they say. New employers usually ask for references after a conditional job offer, and should get your permission before contacting your current boss. Line up a supervisor you get on with before you job hunt.",
+      "quiz": null,
+      "source": {
+        "name": "ACAS",
+        "url": "https://www.acas.org.uk/references"
+      },
+      "tags": [
+        "opportunities",
+        "references"
+      ]
+    },
+    {
+      "id": "c30",
+      "topic": "Law changes",
+      "title": "New rights: what's here and what's coming",
+      "body": "The Employment Rights Act 2025 is arriving in stages. Already here: sick pay from day one and longer time limits for tribunal claims. Due on 1 January 2027: stronger tipping law and unfair dismissal protection after 6 months. Guaranteed hours and pay for shifts cancelled at short notice don't have a start date yet. Planned dates can still change.",
+      "quiz": {
+        "q": "Do zero-hours workers have a right to pay for shifts cancelled at short notice yet?",
+        "options": [
+          "Yes, since April 2026",
+          "Not yet, there's no start date",
+          "Yes, from 1 January 2027"
+        ],
+        "answer": 1,
+        "explain": "As of November 2026, GOV.UK says timings for guaranteed hours and cancellation pay will be set after consultation."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/government/publications/implementing-the-plan-to-make-work-pay-and-employment-rights-act/plan-to-make-work-pay-and-employment-rights-act-timeline-update"
+      },
+      "tags": [
+        "opportunities",
+        "law-changes",
+        "zero-hours"
+      ]
+    }
+  ]
+}
