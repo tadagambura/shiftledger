@@ -6,6 +6,10 @@ import { usePremium } from '@/kit/premium';
 import { KitSettings } from '@/kit/Settings';
 import { Card, Chip, Divider, Field, ListRow, Muted, Row, Section, Toggle } from '@/kit/ui';
 import { parseTaxCode, type LoanPlan } from '@/domain/tax';
+import { todayKey } from '@/kit/dates';
+import { remindersSupported, syncScheduled } from '@/kit/reminders';
+import { useFeedback } from '@/kit/feedback';
+import { PREFIX, shiftReminders } from '@/domain/reminders';
 import { FREE_JOBS } from '@/brand';
 import { useLedger } from '@/state/ledger';
 
@@ -20,6 +24,7 @@ const LOANS: { value: LoanPlan; label: string }[] = [
 export default function Settings() {
   const l = useLedger();
   const { isPremium } = usePremium();
+  const { toast } = useFeedback();
   const [code, setCode] = useState(`${l.setup.region === 'scotland' ? 'S' : ''}${l.setup.codeNumber}L`);
   const [pension, setPension] = useState(String(l.setup.pensionPct));
   const [paywall, setPaywall] = useState(false);
@@ -35,6 +40,33 @@ export default function Settings() {
           <ListRow icon="add" title="Add another job" testID="settings-add-job" onPress={() => (!isPremium && l.jobs.length >= FREE_JOBS ? setPaywall(true) : router.push('/job'))} />
         </Card>
       </Section>
+      <Section title="Shift reminders">
+        <Card>
+          <Toggle label="Time to leave" hint={`A nudge ${l.reminders.travelMins} minutes before each shift, to catch your bus or train.`} value={l.reminders.leave} onChange={(v) => l.setReminders({ leave: v })} testID="rem-leave" />
+          {l.reminders.leave ? (
+            <Row wrap gap={8}>
+              {[15, 30, 45, 60, 90].map((m) => (
+                <Chip key={m} label={`${m} min`} selected={l.reminders.travelMins === m} onPress={() => l.setReminders({ travelMins: m })} testID={`rem-travel-${m}`} />
+              ))}
+            </Row>
+          ) : null}
+          <Toggle label="Take your break" hint="On shifts over 6 hours, a reminder 4 hours in. You're entitled to at least 20 minutes." value={l.reminders.breaks} onChange={(v) => l.setReminders({ breaks: v })} testID="rem-break" />
+          <Toggle label="Check next week's rota" hint="Sundays at 6pm." value={l.reminders.weeklyRota} onChange={(v) => l.setReminders({ weeklyRota: v })} testID="rem-rota" />
+          {remindersSupported ? (
+            <ListRow
+              icon="notifications-outline"
+              title="Allow shift notifications"
+              onPress={async () => {
+                const n = await syncScheduled(PREFIX, shiftReminders(l.shifts, l.jobs, l.reminders, todayKey()), true);
+                toast(n ? `${n} reminders set for the next two weeks.` : 'No upcoming shifts yet, or notifications are off in your phone settings.');
+              }}
+            />
+          ) : (
+            <Muted>Reminders work in the phone app.</Muted>
+          )}
+        </Card>
+      </Section>
+
       <Section title="Tax and deductions">
         <Card>
           <Field
