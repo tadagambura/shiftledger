@@ -1,0 +1,51 @@
+import type { Brand } from '@/kit/theme';
+
+export const brand: Brand = {
+  slug: 'shiftledger',
+  name: 'ShiftLedger',
+  tagline: "Know what you'll actually be paid",
+  fonts: { display: 'IBMPlexSans_700Bold' },
+  radius: 8,
+  light: {
+    bg: '#F5F7FB',
+    surface: '#FFFFFF',
+    surfaceAlt: '#E7ECF6',
+    text: '#0F172A',
+    textMuted: '#4B5568',
+    border: '#D5DCEA',
+    primary: '#1E3A8A',
+    primaryText: '#FFFFFF',
+    accent: '#0EA5A4',
+    accentText: '#03201F',
+    success: '#166534',
+    warning: '#92400E',
+    danger: '#B3261E',
+    focus: '#1E3A8A',
+  },
+  dark: {
+    bg: '#0B1120',
+    surface: '#131B2E',
+    surfaceAlt: '#1C2640',
+    text: '#E8EDF7',
+    textMuted: '#A3AEC4',
+    border: '#2A3654',
+    primary: '#93B4FF',
+    primaryText: '#0B1120',
+    accent: '#5EEAD4',
+    accentText: '#03201F',
+    success: '#86EFAC',
+    warning: '#FCD34D',
+    danger: '#FF8A80',
+    focus: '#93B4FF',
+  },
+  plans: [
+    { id: 'yearly', label: 'Yearly', price: '£24.99 a year', note: 'Best value: about £2.08 a month' },
+    { id: 'monthly', label: 'Monthly', price: '£3.49 a month' },
+  ],
+  premiumPerks: ['More than one job', 'Payslip checks against your logged shifts', 'Exports for your records', 'No ads, ever'],
+  privacyUrl: 'https://kaoticchainz.com/privacy',
+  termsUrl: 'https://kaoticchainz.com/terms',
+  supportEmail: 'hello@kaoticchainz.com',
+};
+
+export const FREE_JOBS = 1;
