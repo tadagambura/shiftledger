@@ -1,6 +1,6 @@
 # ShiftLedger: Spec
 
-**Know what you'll actually be paid** · #10 of 16 · Wave 1: Daily keepers · Used: Every shift · Medium · Revenue potential: High · Money & Work · Source: Perplexity
+**Know what you'll actually be paid** · #8 of 15 · Wave 1: Daily keepers · Used: Every shift · Medium · Revenue potential: High · Money & Work · Source: Perplexity
 
 ## One-liner
 
@@ -24,7 +24,7 @@ For zero-hours, agency, hospitality, care, retail and NHS-bank workers. Log shif
 
 - Payslip reconciliation
 - Pay forecasts and low-cash warnings
-- Bills calendar (links to PocketLeft)
+- Bills calendar (links to StackUp)
 - Holiday-pay estimate
 - Import a rota from a photo or calendar
 
