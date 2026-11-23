@@ -2,7 +2,7 @@
 
 **Know what you'll actually be paid**
 
-> #10 of 16 · Wave 1: Daily keepers · Used: Every shift · Medium · Revenue potential: High · Money & Work
+> #8 of 15 · Wave 1: Daily keepers · Used: Every shift · Medium · Revenue potential: High · Money & Work
 > **Flagship: highest-value app**
 
 ## What it is
@@ -11,7 +11,7 @@ For zero-hours, agency, hospitality, care, retail and NHS-bank workers. Log shif
 
 ## Why it's in the portfolio
 
-The highest-value idea in the portfolio: a stressful money problem that comes back every shift and every payday, for a large UK audience that existing apps only partly serve. The strongest case for a subscription. Feeds naturally into PocketLeft (safe to spend) and SubSpot.
+The highest-value idea in the portfolio: a stressful money problem that comes back every shift and every payday, for a large UK audience that existing apps only partly serve. The strongest case for a subscription. Feeds naturally into StackUp (safe to spend) and StackUp.
 
 ## Who it's for
 
@@ -33,7 +33,7 @@ UK hourly workers with variable shifts, especially 18–35s with more than one e
 
 - Payslip reconciliation
 - Pay forecasts and low-cash warnings
-- Bills calendar (links to PocketLeft)
+- Bills calendar (links to StackUp)
 - Holiday-pay estimate
 - Import a rota from a photo or calendar
 
@@ -87,5 +87,5 @@ Planning. The build spec is in [`docs/SPEC.md`](docs/SPEC.md).
 
 ---
 
-Part of a portfolio of 16 small consumer apps that share one codebase, one retention module
+Part of a portfolio of 15 small consumer apps that share one codebase, one retention module
 and one marketing and upkeep system ([growth-maintenance-engine](https://github.com/tadagambura/growth-maintenance-engine)).
