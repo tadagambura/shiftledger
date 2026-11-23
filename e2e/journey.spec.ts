@@ -103,3 +103,16 @@ test('a planned shift is confirmed in one tap on the day', async ({ page }) => {
   await expect(page.getByTestId('toast')).toContainText('Logged.');
   await expect(page.getByTestId('unpaid')).not.toHaveText('£0.00');
 });
+
+test('shift reminder settings: leave time and break reminders persist', async ({ page }) => {
+  await page.goto('/');
+  await finishIntro(page);
+  await addJob(page);
+  await page.goto('/settings');
+  await page.getByTestId('rem-travel-45').click();
+  await page.getByTestId('rem-break').click();
+  await page.reload();
+  await expect(page.getByTestId('rem-travel-45')).toHaveAttribute('aria-checked', 'true');
+  await expect(page.getByTestId('rem-break')).toHaveAttribute('aria-checked', 'false');
+  await expect(page.getByText('Reminders work in the phone app.').first()).toBeVisible();
+});

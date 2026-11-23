@@ -8,13 +8,28 @@ import { prefsStore } from '@/kit/prefs';
 import { KitRoot } from '@/kit/Root';
 import { useTheme } from '@/kit/theme';
 import { brand } from '@/brand';
+import { todayKey } from '@/kit/dates';
+import { syncScheduled } from '@/kit/reminders';
+import { PREFIX, shiftReminders } from '@/domain/reminders';
+import { useLedger } from '@/state/ledger';
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
 const usePrefs = prefsStore('shiftledger', 21);
 const Art = ({ children }: { children: string }) => <Text style={{ fontSize: 88 }}>{children}</Text>;
 
+function useShiftReminders() {
+  const shifts = useLedger((s) => s.shifts);
+  const jobs = useLedger((s) => s.jobs);
+  const prefs = useLedger((s) => s.reminders);
+  useEffect(() => {
+    // Keeps leave, break and rota reminders in step with the rota. Does nothing on web or without permission.
+    syncScheduled(PREFIX, shiftReminders(shifts, jobs, prefs, todayKey())).catch(() => {});
+  }, [shifts, jobs, prefs]);
+}
+
 function Shell() {
   const { c } = useTheme();
+  useShiftReminders();
   const onboarded = usePrefs((s) => s.onboarded);
   const header = { headerShown: true, headerTintColor: c.text, headerStyle: { backgroundColor: c.bg }, headerShadowVisible: false } as const;
   return (

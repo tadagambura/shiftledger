@@ -2,6 +2,7 @@ import type { DayKey } from '@/kit/dates';
 import { persisted, uid } from '@/kit/store';
 import type { Job, Payslip, Shift } from '@/domain/shifts';
 import { DEFAULT_SETUP, type TaxSetup } from '@/domain/tax';
+import { DEFAULT_REMINDERS, type ReminderPrefs } from '@/domain/reminders';
 
 type LedgerState = {
   jobs: Job[];
@@ -9,6 +10,8 @@ type LedgerState = {
   payslips: Payslip[];
   daysOff: DayKey[];
   setup: TaxSetup;
+  reminders: ReminderPrefs;
+  setReminders: (patch: Partial<ReminderPrefs>) => void;
   saveJob: (j: Omit<Job, 'id'> & { id?: string }) => string;
   removeJob: (id: string) => void;
   saveShift: (s: Omit<Shift, 'id'> & { id?: string }) => string;
@@ -26,6 +29,8 @@ export const useLedger = persisted<LedgerState>('shiftledger.ledger', 1, (set, g
   payslips: [],
   daysOff: [],
   setup: DEFAULT_SETUP,
+  reminders: DEFAULT_REMINDERS,
+  setReminders: (patch) => set((s) => ({ reminders: { ...(s.reminders ?? DEFAULT_REMINDERS), ...patch } })),
   saveJob: (j) => {
     const id = j.id ?? uid('j');
     set((s) => ({ jobs: s.jobs.some((x) => x.id === id) ? s.jobs.map((x) => (x.id === id ? { ...j, id } : x)) : [...s.jobs, { ...j, id }] }));
