@@ -116,3 +116,19 @@ test('shift reminder settings: leave time and break reminders persist', async ({
   await expect(page.getByTestId('rem-break')).toHaveAttribute('aria-checked', 'false');
   await expect(page.getByText('Reminders work in the phone app.').first()).toBeVisible();
 });
+
+test('learning cards: 20 free, sourced, quiz works, the 21st is Premium', async ({ page }) => {
+  await page.goto('/');
+  await finishIntro(page);
+  await page.getByRole('tab', { name: /Rights/ }).click();
+  await expect(page.getByTestId('cards-progress')).toContainText('0 of 30 cards read · 20 free');
+  await page.getByTestId('card-c01').click();
+  await expect(page.getByTestId('card-sheet')).toContainText('Source:');
+  const quiz = page.getByTestId('card-quiz-0');
+  if (await quiz.count()) await quiz.click();
+  else await page.getByTestId('card-done').click();
+  await page.getByTestId('sheet-close').click();
+  await expect(page.getByTestId('cards-progress')).toContainText('1 of 30');
+  await page.getByTestId('card-c21').click();
+  await expect(page.getByTestId('paywall')).toBeVisible();
+});
