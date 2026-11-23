@@ -1,6 +1,6 @@
 # ShiftLedger: Spec
 
-**Know what you'll actually be paid** · #8 of 15 · Wave 1: Daily keepers · Used: Every shift · Medium · Revenue potential: High · Money & Work · Source: Perplexity
+**Know what you'll actually be paid** · #8 of 17 · Wave 1: Daily keepers · Used: Every shift · Medium · Revenue potential: High · Money & Work · Source: Perplexity
 
 ## One-liner
 

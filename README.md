@@ -2,7 +2,7 @@
 
 **Know what you'll actually be paid**
 
-> #8 of 15 · Wave 1: Daily keepers · Used: Every shift · Medium · Revenue potential: High · Money & Work
+> #8 of 17 · Wave 1: Daily keepers · Used: Every shift · Medium · Revenue potential: High · Money & Work
 > **Flagship: highest-value app**
 
 ## What it is
@@ -87,5 +87,5 @@ Planning. The build spec is in [`docs/SPEC.md`](docs/SPEC.md).
 
 ---
 
-Part of a portfolio of 15 small consumer apps that share one codebase, one retention module
+Part of a portfolio of 17 small consumer apps that share one codebase, one retention module
 and one marketing and upkeep system ([growth-maintenance-engine](https://github.com/tadagambura/growth-maintenance-engine)).
