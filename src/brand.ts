@@ -5,6 +5,7 @@ export const brand: Brand = {
   name: 'ShiftLedger',
   tagline: "Know what you'll actually be paid",
   fonts: { display: 'IBMPlexSans_700Bold' },
+  defaultTheme: 'navy',
   radius: 8,
   light: {
     bg: '#F5F7FB',
