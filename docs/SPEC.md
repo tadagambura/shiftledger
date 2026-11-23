@@ -33,7 +33,7 @@ For zero-hours, agency, hospitality, care, retail and NHS-bank workers. Log shif
 | Model | Detail |
 |---|---|
 | Free | Shift logging and pay estimate, with ads |
-| Premium | £3.99–£5.99/month: unlimited jobs, payslip checks, forecasts, exports |
+| Premium | From £3.49/month, with a yearly plan shown first: unlimited jobs, payslip checks, forecasts, exports |
 | Ads | Light, never on pay screens |
 
 Prices are starting points; test before committing. **Portfolio premium promise:** free has ads; the moment you pay you get no ads, cloud backup and storage, and sync across your devices, plus this app's extras.
