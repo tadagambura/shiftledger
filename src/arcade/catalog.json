@@ -1,0 +1,134 @@
+{
+  "app": "shiftledger",
+  "title": "Payday Arcade",
+  "emoji": "⏰",
+  "currency": {
+    "name": "XP",
+    "one": "XP",
+    "emoji": "⚡"
+  },
+  "unlocks": "payday badges, shift themes and milestones",
+  "games": [
+    {
+      "id": "payslip-detective",
+      "name": "Payslip Detective",
+      "emoji": "🕵️",
+      "mechanic": "quiz",
+      "tier": "free",
+      "how": "Spot what's wrong (or right) on these made-up payslips.",
+      "teaches": "Read your payslip like a pro. UK rules, April 2026 rates.",
+      "seconds": 45,
+      "flagship": true,
+      "pack": {
+        "file": "shiftledger/payslip-detective.06c71fe508.json",
+        "sha256": "06c71fe508977a3e7406a165d149d870554d930ae332ddb1bafa2b58810380d2",
+        "bytes": 1533
+      }
+    },
+    {
+      "id": "payday-maths",
+      "name": "Payday Maths",
+      "emoji": "💷",
+      "mechanic": "quiz",
+      "tier": "free",
+      "how": "Work out the pay. Rates are made up so the maths stays simple.",
+      "teaches": "Check your own pay in seconds.",
+      "seconds": 45,
+      "pack": {
+        "file": "shiftledger/payday-maths.872ac37274.json",
+        "sha256": "872ac3727444ce3495e41066af335a30e571ebcd76df701b31f17d935f498ed2",
+        "bytes": 792
+      }
+    },
+    {
+      "id": "clock-in",
+      "name": "Clock In!",
+      "emoji": "🕘",
+      "mechanic": "catch",
+      "tier": "free",
+      "how": "Catch the clock-ins and breaks. Dodge the unpaid extras.",
+      "teaches": "All the time you're required to work counts for pay.",
+      "seconds": 45,
+      "pack": {
+        "file": "shiftledger/clock-in.25c39cda26.json",
+        "sha256": "25c39cda2680474e84be154772105c67c2fbd94d4a7284e6f73c64ff82a76fb1",
+        "bytes": 395
+      }
+    },
+    {
+      "id": "break-time",
+      "name": "Break Time",
+      "emoji": "☕",
+      "mechanic": "quiz",
+      "tier": "arcade",
+      "how": "Quick questions about UK breaks and rest.",
+      "teaches": "Your legal rest breaks. UK rules, 2026.",
+      "seconds": 45,
+      "pack": {
+        "file": "shiftledger/break-time.00e437062f.json",
+        "sha256": "00e437062f70759586b11d2dd75f6b44f4eeb41895cde7589aff73d4a4729ebb",
+        "bytes": 904
+      }
+    },
+    {
+      "id": "shift-matcher",
+      "name": "Shift Matcher",
+      "emoji": "🗓️",
+      "mechanic": "sort",
+      "tier": "arcade",
+      "how": "Fine, clash or too little rest? Sort each pair of shifts.",
+      "teaches": "Spot rota problems before they wear you out.",
+      "seconds": 45,
+      "pack": {
+        "file": "shiftledger/shift-matcher.efe614a1ef.json",
+        "sha256": "efe614a1ef45c1e1ab813d4377e880877d4e940284e2cdccc3e58b60bb1b61c4",
+        "bytes": 710
+      }
+    },
+    {
+      "id": "workplace-quiz",
+      "name": "Workplace Quiz",
+      "emoji": "📋",
+      "mechanic": "quiz",
+      "tier": "arcade",
+      "how": "Quick questions on UK work rights.",
+      "teaches": "Know your basic rights. UK rules, 2026. Not legal advice: ACAS is free.",
+      "seconds": 45,
+      "pack": {
+        "file": "shiftledger/workplace-quiz.ab348d3b0a.json",
+        "sha256": "ab348d3b0a4675d367cadc02c34d0b8dafc7b6799086d23d97c417f1a5cdcee7",
+        "bytes": 879
+      }
+    },
+    {
+      "id": "overtime-challenge",
+      "name": "Overtime Challenge",
+      "emoji": "⏱️",
+      "mechanic": "guess",
+      "tier": "arcade",
+      "how": "How much would this overtime pay? Get as close as you can.",
+      "teaches": "Know what extra hours are really worth before you say yes.",
+      "seconds": 45,
+      "pack": {
+        "file": "shiftledger/overtime-challenge.98233a8866.json",
+        "sha256": "98233a8866f7901f9e76313cbf1239c8b7d6e869aaf01e56db7ecc69766409f6",
+        "bytes": 596
+      }
+    },
+    {
+      "id": "underpaid-steps",
+      "name": "Shift Sprint",
+      "emoji": "🏃",
+      "mechanic": "order",
+      "tier": "arcade_subscription",
+      "how": "Put the steps in the right order.",
+      "teaches": "What to do, in order, when something's wrong at work.",
+      "seconds": 45,
+      "pack": {
+        "file": "shiftledger/underpaid-steps.2c95f88565.json",
+        "sha256": "2c95f88565a256c5e7410edf98c0de675a401e377afaff6fba2e52164a3588bb",
+        "bytes": 506
+      }
+    }
+  ]
+}
