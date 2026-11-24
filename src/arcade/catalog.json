@@ -120,7 +120,7 @@
       "name": "Shift Sprint",
       "emoji": "🏃",
       "mechanic": "order",
-      "tier": "arcade_subscription",
+      "tier": "arcade",
       "how": "Put the steps in the right order.",
       "teaches": "What to do, in order, when something's wrong at work.",
       "seconds": 45,
