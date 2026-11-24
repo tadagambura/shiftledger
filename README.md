@@ -42,7 +42,9 @@ UK hourly workers with variable shifts, especially 18–35s with more than one e
 | Model | Detail |
 |---|---|
 | Free | Shift logging and pay estimate, with ads |
-| Premium | From £3.49/month, with a yearly plan shown first: unlimited jobs, payslip checks, forecasts, exports |
+| Premium | £34.99/year (shown first) or £3.49/month: unlimited jobs, payslip checks, forecasts, exports, every Arcade game in the app |
+| Arcade games | £0.99 each, kept forever, or every game in the app with Premium |
+| KC All Access | £25 once (every Arcade game in every KC app, kept forever) plus £7.99/month or £79.99/year (Premium in every KC app). Needs a free KC account. |
 | Ads | Light, never on pay screens |
 
 **Portfolio premium promise:** free has ads; the moment you pay you get no ads, cloud backup and storage, and sync across your devices, plus this app's extras.
@@ -65,8 +67,8 @@ Built on **The Progression Loop**, the portfolio's shared retention framework
 
 **Calm.** Gentle, kind humour and smooth motion: a stickman yawning after a shift, a fly escaping an empty pocket. No drama, nothing that adds stress.
 
-- End of shift: the clock spins, the stickman stretches and yawns, earnings count up
-- Planned day off: the stickman naps in a hammock while a snowflake keeps the streak safe
+- End of shift: the clock spins, Kaos stretches and yawns, earnings count up
+- Planned day off: Kaos naps in a hammock while a snowflake keeps the streak safe
 - Payday: the payslip prints and he checks it with a magnifying glass
 - Possible short pay: he raises one eyebrow and taps the number (no alarms)
 - Overtime logged: he refills his coffee and the steam spells 'OT'
