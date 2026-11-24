@@ -6,6 +6,8 @@ import { computeStreak } from '@/kit/streak';
 import { Body, Button, Card, Divider, EmptyState, H1, H2, Label, Muted, Row, Screen, Stack, Strong } from '@/kit/ui';
 import { earnedUnpaid, nextPayday, payPeriod, shiftPay } from '@/domain/shifts';
 import { useLedger } from '@/state/ledger';
+import '@/arcade';
+import { ArcadeEntry } from '@/kit/arcade/screens';
 
 export default function Today() {
   const l = useLedger();
@@ -99,6 +101,7 @@ export default function Today() {
           </Card>
         );
       })}
+      <ArcadeEntry />
     </Screen>
   );
 }
