@@ -1,4 +1,5 @@
 import { router } from 'expo-router';
+import { AdBanner } from '@/kit/ads';
 import { diffDays, formatDay, todayKey } from '@/kit/dates';
 import { useFeedback } from '@/kit/feedback';
 import { formatGBP } from '@/kit/money';
@@ -39,7 +40,7 @@ export default function Shifts() {
   const past = shifts.filter((s) => s.status === 'worked').sort((a, b) => (a.day < b.day ? 1 : -1)).slice(0, 30);
   const missed = shifts.filter((s) => s.status === 'planned' && diffDays(s.day, today) > 0);
   return (
-    <Screen testID="shifts">
+    <Screen testID="shifts" banner={<AdBanner placement="shifts_banner" />}>
       <H1>Shifts</H1>
       <Button title="Add a shift or plan your rota" icon="add" onPress={() => router.push('/shift')} testID="shifts-add" />
       {missed.length ? (
